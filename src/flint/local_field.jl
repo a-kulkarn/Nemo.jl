@@ -1,4 +1,4 @@
-export NonArchimedeanLocalField, NonArchimedeanLocalFieldElem, FlintLocalField, FlintLocalFieldElem, NALocalField, NALocalFieldElem
+export NonArchLocalField, NonArchLocalFieldElem, FlintLocalField, FlintLocalFieldElem, NALocalField, NALocalFieldElem
 
 parent_type(::Type{NALocalFieldElem}) = NALocalField
 

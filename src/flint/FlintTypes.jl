@@ -1792,13 +1792,13 @@ end
 abstract type NonArchimedeanLocalField     <: Field end
 abstract type NonArchimedeanLocalFieldElem <: FieldElem end
 
-abstract type FlintLocalField     <: NonArchimedeanLocalField end
-abstract type FlintLocalFieldElem <: NonArchimedeanLocalFieldElem end
+abstract type FlintLocalField     <: NonArchLocalField end
+abstract type FlintLocalFieldElem <: NonArchLocalFieldElem end
 
 
 # Alias
-NALocalField     = NonArchimedeanLocalField
-NALocalFieldElem = NonArchimedeanLocalFieldElem
+const NALocalField     = NonArchLocalField
+const NALocalFieldElem = NonArchLocalFieldElem
 
 
 ###############################################################################
