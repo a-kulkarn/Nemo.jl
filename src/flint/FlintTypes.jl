@@ -1789,8 +1789,8 @@ end
 ###############################################################################
 
 # Abstract types
-abstract type NonArchimedeanLocalField     <: Field end
-abstract type NonArchimedeanLocalFieldElem <: FieldElem end
+abstract type NonArchLocalField     <: Field end
+abstract type NonArchLocalFieldElem <: FieldElem end
 
 abstract type FlintLocalField     <: NonArchLocalField end
 abstract type FlintLocalFieldElem <: NonArchLocalFieldElem end
