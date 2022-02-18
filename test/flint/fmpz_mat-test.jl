@@ -554,13 +554,13 @@ end
 
    r, N = nullspace(A)
 
-    @test iszero(A*N)
+   @test iszero(A*N)
 
-    B = S([0 0 0; 0 0 0; 0 0 0])
-    I = S([1 0 0; 0 1 0; 0 0 1])
-    
-    r, N = nullspace(B)
-    @test r == 3 && N == I
+   B = S([0 0 0; 0 0 0; 0 0 0])
+   I = S([1 0 0; 0 1 0; 0 0 1])
+
+   r, N = nullspace(B)
+   @test r == 3 && N == I
 end
 
 @testset "fmpz_mat.rank" begin
